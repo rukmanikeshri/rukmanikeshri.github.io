@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rukmani Keshri · Supply Chain Executive</title>
+  <meta name="description" content="Rukmani Keshri — Supply Chain Executive with 4+ years in supply chain management, logistics, transport operations and customer assurance." />
+  <meta property="og:title" content="Rukmani Keshri · Supply Chain Executive" />
+  <meta property="og:description" content="Supply chain, logistics & transport operations professional — Salesforce, SAP, Advanced Excel." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function(){try{var s=localStorage.getItem('theme');var t=s||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+  </script>
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__brand">
+        <span class="nav__logo" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="26" height="26">
+            <path d="M3 20 L10 20 L14 9 L22 9 L26 20 L29 20" fill="none"/>
+            <circle cx="10" cy="20" r="2.6"/><circle cx="22" cy="9" r="2.6"/>
+            <rect x="24" y="17" width="5" height="4" rx="1"/><circle cx="25.5" cy="22.5" r="1.4"/><circle cx="28" cy="22.5" r="1.4"/>
+          </svg>
+        </span>
+        <span class="nav__name">Rukmani&nbsp;Keshri</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#services">Services</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10Zm0-13a1 1 0 0 1 1 1v1.5a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1Zm0 13.5a1 1 0 0 1 1 1V20a1 1 0 1 1-2 0v-1.5a1 1 0 0 1 1-1ZM4 12a1 1 0 0 1 1-1h1.5a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1Zm13.5 0a1 1 0 0 1 1-1H20a1 1 0 1 1 0 2h-1.5a1 1 0 0 1-1-1ZM5.6 5.6a1 1 0 0 1 1.4 0l1.1 1.1a1 1 0 1 1-1.4 1.4L5.6 7a1 1 0 0 1 0-1.4Zm10.3 10.3a1 1 0 0 1 1.4 0l1.1 1.1a1 1 0 0 1-1.4 1.4l-1.1-1.1a1 1 0 0 1 0-1.4Zm2.5-10.3a1 1 0 0 1 0 1.4l-1.1 1.1a1 1 0 1 1-1.4-1.4l1.1-1.1a1 1 0 0 1 1.4 0ZM8.1 15.9a1 1 0 0 1 0 1.4L7 18.4A1 1 0 0 1 5.6 17l1.1-1.1a1 1 0 0 1 1.4 0Z"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <a class="btn btn--ghost" href="Rukmani_Keshri_CV.pdf" download title="Download CV (PDF)">
+          <svg viewBox="0 0 24 24" width="15" height="15" style="fill:currentColor" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v8.6l2.3-2.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.4L11 12.6V4a1 1 0 0 1 1-1ZM5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"/></svg>
+          Download CV
+        </a>
+        <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <canvas class="hero__net" id="netCanvas" aria-hidden="true"></canvas>
+    <div class="hero__content">
+      <div class="hero__text">
+        <p class="hero__eyebrow"><span class="pulse-dot"></span> Available for supply chain roles</p>
+        <h1 class="hero__title">Rukmani Keshri</h1>
+        <p class="hero__role"><span id="typed"></span><span class="caret" aria-hidden="true">|</span></p>
+        <p class="hero__lead">
+          Results-driven <strong>Supply Chain Executive</strong> with 4+ years across
+          supply chain management, logistics, transport operations and customer assurance —
+          optimizing processes, coordinating shipments and delivering cost-effective logistics.
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#experience">View Experience</a>
+          <a class="btn btn--outline" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero__social">
+          <a href="mailto:rukmanikeshri63274@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path d="M2 5.5h20a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1Zm.6 1.6 9.4 6.3 9.4-6.3H2.6Z"/></svg>
+          </a>
+          <a href="tel:+917978655952" aria-label="Phone">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.57 3.6a1 1 0 0 1-.25 1l-2.2 2.2Z"/></svg>
+          </a>
+          <a href="#certifications" aria-label="Certifications">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2 3 6v6c0 5 3.9 8.5 9 10 5.1-1.5 9-5 9-10V6l-9-4Zm-1 13-3-3 1.4-1.4L11 12.2l4.6-4.6L17 9l-6 6Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero__card">
+        <div class="hero__photo">
+          <img src="assets/img/rukmani.jpg" alt="Rukmani Keshri" loading="eager" />
+          <span class="hero__ring" aria-hidden="true"></span>
+        </div>
+        <div class="hero__mini">
+          <div><b>4+</b><span>Years</span></div>
+          <div><b>4</b><span>Companies</span></div>
+          <div><b>5</b><span>Certifications</span></div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ============ PIPELINE STRIP ============ -->
+  <section class="pipeline-wrap" aria-label="Supply chain flow">
+    <div class="pipeline" aria-hidden="true">
+      <div class="pl-node"><span class="pl-ic">🏭</span><span>Source</span></div>
+      <div class="pl-edge"></div>
+      <div class="pl-node"><span class="pl-ic">📦</span><span>Procure</span></div>
+      <div class="pl-edge"></div>
+      <div class="pl-node"><span class="pl-ic">🏬</span><span>Warehouse</span></div>
+      <div class="pl-edge"></div>
+      <div class="pl-node"><span class="pl-ic">🚚</span><span>Transport</span></div>
+      <div class="pl-edge"></div>
+      <div class="pl-node pl-node--end"><span class="pl-ic">✅</span><span>Deliver</span></div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats" aria-label="Highlights">
+    <div class="stats__inner">
+      <div class="stat"><span class="stat__num" data-count="4">0</span><span class="stat__suffix">+</span><span class="stat__label">Years Experience</span></div>
+      <div class="stat"><span class="stat__num" data-count="4">0</span><span class="stat__label">Organizations</span></div>
+      <div class="stat"><span class="stat__num" data-count="9">0</span><span class="stat__suffix">+</span><span class="stat__label">Tools &amp; Platforms</span></div>
+      <div class="stat"><span class="stat__num" data-count="5">0</span><span class="stat__label">Certifications</span></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section__head reveal">
+      <span class="section__index">01</span>
+      <h2 class="section__title">About</h2>
+      <div class="section__rule"></div>
+    </div>
+    <div class="about reveal">
+      <div class="about__text">
+        <p>I&rsquo;m <strong>Rukmani Keshri</strong>, a results-driven supply chain professional with <strong>4+ years</strong> of experience in supply chain management, logistics, transportation and customer relations. I optimize supply chain processes, coordinate shipments end-to-end, and deliver cost-effective logistics solutions.</p>
+        <p>I&rsquo;m proficient in data analytics and CRM tools like <strong>Salesforce, Ipsos and Qlik View</strong> to strengthen forecasting, inventory control and customer engagement — and experienced in resolving issues and driving retention through feedback-driven strategies.</p>
+        <p>With a strong focus on efficiency, quality control and process optimization, I ensure seamless operations and continuous improvement across supply chain and customer service.</p>
+      </div>
+      <aside class="about__card">
+        <h3>Quick facts</h3>
+        <ul class="about__facts">
+          <li><span>Role</span><b>Supply Chain Executive</b></li>
+          <li><span>Experience</span><b>4+ years</b></li>
+          <li><span>Focus</span><b>Logistics &amp; Ops</b></li>
+          <li><span>CRM</span><b>Salesforce · ZOHO</b></li>
+          <li><span>ERP</span><b>SAP · TALLY</b></li>
+          <li><span>Status</span><b class="ok">Open to work</b></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section--alt" id="skills">
+    <div class="section__head reveal">
+      <span class="section__index">02</span>
+      <h2 class="section__title">Skills &amp; Tools</h2>
+      <div class="section__rule"></div>
+    </div>
+    <div class="skills reveal">
+      <div class="skills__bars" id="skillBars"></div>
+      <div class="skills__tools">
+        <h3>Platforms &amp; Tools</h3>
+        <ul class="chips">
+          <li>Oracle EBS</li><li>Salesforce CRM</li><li>Zoho Projects</li><li>SAP MM</li>
+          <li>TALLY ERP9</li><li>Advanced Excel</li><li>Microsoft Word</li><li>Qlik View</li>
+          <li>Ipsos</li><li>Steel &amp; Mines Portal</li>
+        </ul>
+        <h3 style="margin-top:1.4rem">Domains</h3>
+        <ul class="chips">
+          <li>Customer Order Management</li><li>Order-to-Cash (O2C)</li><li>Supply Chain</li><li>Logistics</li>
+          <li>Transport Ops</li><li>Inventory &amp; Material Planning</li><li>Export Documentation</li>
+          <li>SOP Development</li><li>Process Improvement</li><li>Cross-functional Collaboration</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="section__head reveal">
+      <span class="section__index">03</span>
+      <h2 class="section__title">Experience</h2>
+      <div class="section__rule"></div>
+    </div>
+    <div class="timeline">
+      <article class="tl reveal">
+        <div class="tl__dot"></div>
+        <div class="tl__body">
+          <div class="tl__top"><h3>Customer Order Management Representative</h3><span class="tl__date">Aug 2025 – Present</span></div>
+          <p class="tl__org">Cummins India Ltd. · Pune</p>
+          <ul>
+            <li>Manage customer orders end-to-end through <strong>Oracle EBS</strong> Order Management, reviewing inventory availability and providing accurate delivery commitments.</li>
+            <li>Coordinate with Material Planning, Supplier and Warehouse teams to fulfil customer orders on time.</li>
+            <li>Resolve order issues including shortages, backorders, delivery delays and schedule changes; monitor future inventory and communicate realistic delivery timelines.</li>
+            <li>Develop and maintain Standard Operating Procedures (SOPs) to improve efficiency — including a new plant-inventory SOP that improved inventory accuracy and reduced customer response time.</li>
+            <li>Collaborate with global stakeholders to ensure smooth order execution and drive continuous process improvement.</li>
+          </ul>
+          <ul class="tl__tags"><li>Oracle EBS</li><li>Order Management</li><li>O2C</li><li>SOP Development</li></ul>
+        </div>
+      </article>
+
+      <article class="tl reveal">
+        <div class="tl__dot"></div>
+        <div class="tl__body">
+          <div class="tl__top"><h3>Supply Chain Management</h3><span class="tl__date">Sep 2024 – Apr 2025</span></div>
+          <p class="tl__org">Discreet Solutions Private Ltd.</p>
+          <ul>
+            <li>Managed end-to-end supply chain processes, integrating customer feedback into inventory planning and logistics; used data analytics to improve forecasting accuracy and streamline material movement.</li>
+            <li>Oversaw movement of materials across categories — RMA (Return Material Authorization), demo units and saleable stock — ensuring accurate inventory control and optimal stock allocation.</li>
+            <li>Prepared export documentation (export licenses, landing bills, certificates of origin) to clear customs in exporting and importing countries.</li>
+            <li>Assessed and selected transport &amp; courier services for cost-effectiveness and speed; negotiated competitive carrier pricing while maintaining service levels.</li>
+            <li>Resolved material quality, quantity discrepancy and dispatch-delay issues with internal teams and customers; enforced SOPs for consistency and compliance.</li>
+            <li>Co-developed a new SOP for inventory information flow, reducing manual effort and improving the accuracy and timeliness of inventory updates shared across teams.</li>
+          </ul>
+          <ul class="tl__tags"><li>Supply Chain</li><li>ZOHO</li><li>Advanced Excel</li><li>Export Docs</li></ul>
+        </div>
+      </article>
+
+      <article class="tl reveal">
+        <div class="tl__dot"></div>
+        <div class="tl__body">
+          <div class="tl__top"><h3>Executive – Customer Relation Management</h3><span class="tl__date">Dec 2023 – Sep 2024</span></div>
+          <p class="tl__org">B. U. Bhandari Auto Private Ltd.</p>
+          <ul>
+            <li>Managed customer relations for sales and service, driving high satisfaction and retention.</li>
+            <li>Handled complaints and feedback via Salesforce, ensuring prompt resolutions aligned with company standards.</li>
+            <li>Led CEM initiatives that boosted ratings on Volkswagen platforms and Google reviews.</li>
+            <li>Tracked and managed daily leads in Salesforce for timely follow-ups and improved conversions.</li>
+            <li>Monitored customer feedback using Ipsos and Qlik View to surface service-improvement insights.</li>
+          </ul>
+          <ul class="tl__tags"><li>Salesforce</li><li>CRM (VW)</li><li>Ipsos</li><li>Qlik View</li></ul>
+        </div>
+      </article>
+
+      <article class="tl reveal">
+        <div class="tl__dot"></div>
+        <div class="tl__body">
+          <div class="tl__top"><h3>Logistics Assistant</h3><span class="tl__date">Dec 2021 – Oct 2023</span></div>
+          <p class="tl__org">JRS Ventures Private Ltd.</p>
+          <ul>
+            <li>Collaborated with the Mining Department on the Monthly Mining Return, ensuring accurate submission on the Odisha Steel &amp; Mines (I3MS) portal.</li>
+            <li>Prepared shipment documentation — vehicle permits, transportation authorizations and goods permits — ensuring regulatory compliance and smooth transport.</li>
+            <li>Generated delivery challans and E-Way bills, coordinating with authorized transporters for timely, efficient delivery.</li>
+            <li>Maintained detailed records of incoming and outgoing stock for accurate inventory control.</li>
+            <li>Provided strategic support across business operations, streamlining processes and workflow efficiency.</li>
+          </ul>
+          <ul class="tl__tags"><li>Transport Ops</li><li>I3MS Portal</li><li>E-Way Bills</li><li>TALLY</li></ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section section--alt" id="services">
+    <div class="section__head reveal">
+      <span class="section__index">04</span>
+      <h2 class="section__title">What I Do</h2>
+      <div class="section__rule"></div>
+    </div>
+    <div class="services">
+      <article class="svc reveal">
+        <div class="svc__ic">🔗</div>
+        <h3>Supply Chain Management</h3>
+        <p>End-to-end supply chain operations — procurement, inventory planning, material flow and SOP-driven process optimization.</p>
+      </article>
+      <article class="svc reveal">
+        <div class="svc__ic">🚚</div>
+        <h3>Transport Operations</h3>
+        <p>Shipment coordination, carrier selection &amp; negotiation, export documentation, permits and E-Way bills for compliant, on-time delivery.</p>
+      </article>
+      <article class="svc reveal">
+        <div class="svc__ic">🤝</div>
+        <h3>Customer Assurance</h3>
+        <p>CRM-led customer relations — issue resolution, retention and feedback analytics with Salesforce, Ipsos and Qlik View.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATIONS ============ -->
+  <section class="section" id="certifications">
+    <div class="section__head reveal">
+      <span class="section__index">05</span>
+      <h2 class="section__title">Certifications</h2>
+      <div class="section__rule"></div>
+    </div>
+    <p class="section__sub reveal">Click any certificate to preview it.</p>
+    <div class="cert-gallery" id="certGallery"></div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--alt" id="contact">
+    <div class="section__head reveal">
+      <span class="section__index">06</span>
+      <h2 class="section__title">Get in touch</h2>
+      <div class="section__rule"></div>
+    </div>
+    <div class="contact reveal">
+      <div class="contact__intro">
+        <h3>Let&rsquo;s optimize your operations.</h3>
+        <p>I&rsquo;m open to supply chain, logistics and customer-operations roles. The quickest way to reach me is email.</p>
+        <a class="btn btn--primary" href="mailto:rukmanikeshri63274@gmail.com">Say hello →</a>
+      </div>
+      <div class="contact__links">
+        <a class="contact__item" href="mailto:rukmanikeshri63274@gmail.com">
+          <span class="contact__ic">✉️</span><span><b>Email</b>rukmanikeshri63274@gmail.com</span>
+        </a>
+        <a class="contact__item" href="tel:+917978655952">
+          <span class="contact__ic">📞</span><span><b>Phone</b>+91 79786 55952</span>
+        </a>
+        <a class="contact__item" href="#certifications">
+          <span class="contact__ic">🎓</span><span><b>Certifications</b>View credentials</span>
+        </a>
+        <a class="contact__item" href="#experience">
+          <span class="contact__ic">💼</span><span><b>Experience</b>4+ years · 4 companies</span>
+        </a>
+        <a class="contact__item" href="#services">
+          <span class="contact__ic">🔗</span><span><b>Services</b>Supply chain &amp; logistics</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Rukmani Keshri</p>
+    <a href="#hero" class="footer__top">Back to top ↑</a>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Certificate preview">
+    <div class="lightbox__backdrop" data-close></div>
+    <div class="lightbox__panel">
+      <button class="lightbox__close" data-close aria-label="Close preview">✕</button>
+      <div class="lightbox__stage" id="lightboxStage"></div>
+      <div class="lightbox__bar">
+        <span class="lightbox__title" id="lightboxTitle"></span>
+        <a class="lightbox__open" id="lightboxOpen" href="#" target="_blank" rel="noopener">Open original ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
